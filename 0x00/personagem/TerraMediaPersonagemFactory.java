@@ -11,3 +11,4 @@ public class TerraMediaPersonagemFactory extends PersonagemFactory{
         }
         return personagem;
     }
+}
