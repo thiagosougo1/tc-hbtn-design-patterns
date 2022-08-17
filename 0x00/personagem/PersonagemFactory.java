@@ -1,3 +1,3 @@
 public abstract class PersonagemFactory {
-    public abstract Personagem createPersonagem(TipoPersonagem tipoPersonagem, String nome) throws Exception;
+    public abstract Personagem createPersonagem(TipoPersonagem tipo, String nome) throws Exception;
 }
