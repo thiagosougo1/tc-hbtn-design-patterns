@@ -1,6 +1,10 @@
-  public class Program {
+import java.util.Locale;
+
+public class Program {
       public static void main(String[] args) {
-          PersonagemFactory terraMediaPersonagemFactory = new WesterosPersonagemFactory();
+        Locale.setDefault(new Locale("pt", "BR"));
+ 
+        PersonagemFactory terraMediaPersonagemFactory = new WesterosPersonagemFactory();
           PersonagemFactory westerosPersonagemFactory = new TerraMediaPersonagemFactory();
 
           try {
