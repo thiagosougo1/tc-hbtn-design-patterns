@@ -1,4 +1,3 @@
-package cafeteria;
 
 import java.util.List;
 
