@@ -13,6 +13,8 @@ public class Impressao {
         return 1.0;
     }
     int paginasPreto = paginasTotais - paginasColoridas; 
+
+    @Override
     public String toString(){
        return "total de paginas: " + paginasTotais + 
             ", total coloridas: " + paginasColoridas + 
