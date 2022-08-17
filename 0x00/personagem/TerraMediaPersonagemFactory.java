@@ -1,6 +1,6 @@
 public class TerraMediaPersonagemFactory extends PersonagemFactory{
     @Override
-    public Personagem createPersonagem(TipoPersonagem tipoPersonagem, String nome) {
+    public Personagem createPersonagem(TipoPersonagem tipoPersonagem, String nome) throws Exception {
         Personagem personagem;
         if (tipoPersonagem.equals(TipoPersonagem.MAGO)) {
             personagem = new Mago(nome, 10, 2, 5, 3 ,4);
