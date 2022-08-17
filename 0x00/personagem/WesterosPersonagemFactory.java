@@ -1,6 +1,6 @@
 public class WesterosPersonagemFactory extends PersonagemFactory{
     @Override
-    public Personagem createPersonagem(TipoPersonagem tipoPersonagem, String nome) {
+    public Personagem createPersonagem(TipoPersonagem tipoPersonagem, String nome) throws Exception {
         Personagem personagem;
         if (tipoPersonagem.equals(TipoPersonagem.MAGO)) {
             personagem = new Mago(nome, 8, 3, 3, 3 ,4);
