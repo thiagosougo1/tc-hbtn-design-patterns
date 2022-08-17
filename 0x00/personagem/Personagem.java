@@ -43,7 +43,7 @@ public abstract class Personagem {
                 ", forca = " + forca +
                 ", vigor = " + vigor +
                 ", resistencia = " + resistencia +
-                ", destreza = " + destreza +
-                '}';
+                ", destreza = " + destreza + 
+                ", dano ataque = " + getDanoAtaque();
     }
 }
