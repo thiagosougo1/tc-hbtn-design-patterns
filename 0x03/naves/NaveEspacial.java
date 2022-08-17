@@ -1,4 +1,4 @@
-public class NaveEspacial {
+public class NaveEspacialDecorator {
 
     private int saude;
     private int ataque;
