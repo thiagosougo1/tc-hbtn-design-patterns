@@ -1,4 +1,3 @@
-package impressao;
 import java.util.Locale;
 
 public class Program {
