@@ -1,11 +1,11 @@
 public abstract class Personagem {
-    private String nome;
-    private TipoPersonagem tipo;
-    private int inteligencia;
-    private int forca;
-    private int vigor;
-    private int resistencia;
-    private int destreza;
+    public String nome;
+    public TipoPersonagem tipo;
+    public int inteligencia;
+    public int forca;
+    public int vigor;
+    public int resistencia;
+    public int destreza;
 
     public Personagem(String nome, TipoPersonagem tipo, int inteligencia, int forca, int vigor, int resistencia, int destreza) {
         this.nome = nome;
