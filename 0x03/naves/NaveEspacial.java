@@ -1,4 +1,4 @@
-public class NaveEspacialDecorator {
+public class NaveEspacial {
 
     private int saude;
     private int ataque;
@@ -35,10 +35,3 @@ public class NaveEspacialDecorator {
         return String.format("Saude: %d - Ataque: %d", getSaude(), getAtaque());
     }
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
