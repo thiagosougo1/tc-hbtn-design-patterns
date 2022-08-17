@@ -1,4 +1,4 @@
-public class MagoBuilder  implements Builder{
+public class MagoBuilder implements Builder{
 
     private String nome;
     private int inteligencia;
