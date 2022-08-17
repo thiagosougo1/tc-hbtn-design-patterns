@@ -1,7 +1,3 @@
-
-
-
-
 public class ArmaduraDecorator extends NaveEspacialDecorator{
 
     public ArmaduraDecorator(NaveEspacial naveEspacial) {
