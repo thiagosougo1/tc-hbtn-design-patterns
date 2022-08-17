@@ -38,12 +38,14 @@ public abstract class Personagem {
     @Override
     public String toString() {
         return "Personagem { " +
-                "nome = " + nome + ", tipo = " + tipo +
+                "nome = " + nome +
+                ", tipo = " + tipo +
                 ", inteligencia = " + inteligencia +
                 ", forca = " + forca +
                 ", vigor = " + vigor +
                 ", resistencia = " + resistencia +
-                ", destreza = " + destreza + 
-                ", dano ataque = " + getDanoAtaque();
+                ", destreza = " + destreza +
+                ", dano ataque = " + String.format("%.2f",getDanoAtaque())+
+                " }";
     }
 }
