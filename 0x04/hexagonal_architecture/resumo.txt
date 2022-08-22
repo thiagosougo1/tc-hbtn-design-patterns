@@ -1,0 +1,4 @@
+- Uma Arquitetura Hexagonal divide as classes de um sistema em dois grupos principais: Classes de domínio, isto é, diretamente relacionadas com o negócio do sistema. Classes relacionadas com infraestrutura, tecnologias e responsáveis pela integração com sistemas externos (tais como bancos de dados) e foi criada por Alistair Cockburn
+- Beneficios: solução de serviços externos independentes; possibilita adiar decisões técnicas; criação e substituição de adaptadores; fácil de testar e trocar.
+- Clean architecture é um padrão de escrita de código, enquanto a arquitetura hexagonal é um padrão de código em si.
+- Deve ser utilizada em projetos maiores 
